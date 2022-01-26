@@ -13,7 +13,7 @@ const completeBtn = document.getElementById('complete-button');
 
 let countDownTitle = '';
 let countDownDate = '';
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 
 const sec = 1000; // milliseconds
