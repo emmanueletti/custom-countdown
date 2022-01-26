@@ -80,6 +80,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
+  font-family: sans-serif;
 }
 
 /* Button */
@@ -94,6 +95,10 @@ button {
   color: white;
   cursor: pointer;
   outline: none;
+}
+
+button:hover {
+  filter: brightness(110%);
 }
 
 /* Countdown */
